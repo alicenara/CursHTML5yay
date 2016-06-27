@@ -1,40 +1,40 @@
 class Vehicle {
-  constructor(tires){
-    this.tires = tires;
+  constructor (tires) {
+    this.tires = tires
   }
-  getTires(){
-    return this.tires;
+  getTires () {
+    return this.tires
   }
 }
-exports.Vehicle = Vehicle;
+exports.Vehicle = Vehicle
 
 class Car extends Vehicle {
-  constructor(tires=4){
+  constructor (tires = 4) {
     super(tires)
   }
 }
-exports.Car = Car;
+exports.Car = Car
 
-class Motorbike extends Vehicle{
-  constructor(tires=2){
+class Motorbike extends Vehicle {
+  constructor (tires = 2) {
     super(tires)
   }
 }
-exports.Motorbike = Motorbike;
+exports.Motorbike = Motorbike
 
-class Truck extends Vehicle{
-  constructor(tires=8){
-    super(tires);
-    this.cargo = [];
+class Truck extends Vehicle {
+  constructor (tires = 8) {
+    super(tires)
+    this.cargo = []
   }
-  loadCargo(newCargo){
-    this.cargo = (this.cargo).concat(newCargo);
+  loadCargo (newCargo) {
+    this.cargo = (this.cargo).concat(newCargo)
   }
-  logCargo(){
-    console.log((this.cargo).join());
+  logCargo () {
+    console.log((this.cargo).join())
   }
 }
-exports.Truck = Truck;
+exports.Truck = Truck
 
 /*
  console (node):

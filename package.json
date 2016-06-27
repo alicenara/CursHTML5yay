@@ -1,0 +1,30 @@
+{
+  "name": "curshtml5",
+  "version": "1.0.0",
+  "description": "yay",
+  "main": "exercise1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "chokidar '**/*.js' -c 'npm run lint'",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicenara/CursHTML5yay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicenara/CursHTML5yay/issues"
+  },
+  "homepage": "https://github.com/alicenara/CursHTML5yay#readme",
+  "dependencies": {
+    "chokidar-cli": "^1.2.0",
+    "standard": "^7.1.2"
+  },
+  "devDependencies": {
+    "chokidar": "^1.6.0",
+    "chokidar-cli": "^1.2.0",
+    "standard": "^7.1.2"
+  }
+}
